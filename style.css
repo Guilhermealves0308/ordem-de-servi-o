@@ -1,0 +1,53 @@
+/* Define a fonte e o tamanho do texto padrão */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estiliza o cabeçalho */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estiliza o formulário */
+  form {
+    margin-top: 30px;
+  }
+  
+  /* Define a largura e o espaçamento dos campos do formulário */
+  input,
+  textarea,
+  select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estiliza o botão de envio */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estiliza as mensagens de sucesso ou erro */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
